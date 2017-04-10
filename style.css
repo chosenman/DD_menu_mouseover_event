@@ -1,0 +1,24 @@
+  .menu {
+  	background:#ccc; display: block; /*float:right; margin-right: 200px;*/
+  }
+  	  .menu a {
+  	  	color:blue; cursor: pointer;
+  	  	text-decoration:underline; line-height:200%; display:inline-block;
+  	  }
+  	  .menu a:hover {color:yellow;}
+	  .menu li  {
+	  display:inline-block; padding:10px;
+	  }
+	  .menu li { position: relative; }
+	  .menu ul {
+	    position:absolute; position: 0px 0px; 
+	    background:#999;
+	    display:none;
+	  }
+	    .menu ul  {padding-left:0; min-width:100px;}
+	    .menu ul li {display:inline; }
+
+	    	.menu ul li ul {display:none; position:absolute; left:100px; top:0px; min-width:120px; background:#777;}
+	    	.menu ul li ul a {
+	    		color:#fff;
+	    	}
